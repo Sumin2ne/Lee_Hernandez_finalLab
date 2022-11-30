@@ -31,7 +31,7 @@ background-image: url("../images/background.webp");
 
 position: relative;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 
 background-color:#1c1b1bdb;
 background-blend-mode: overlay;
@@ -132,17 +132,17 @@ article p {
 }
 
 .sprite {
-  width: 150px;
+  width: 225px;
   height: 150px;
   
-  background-image: url('../images/marvelSprites.jpg');
+  background-image: url('../images/FlagsSprite.jpg');
 }
 
-#carol { background-position: -150px 0; }
-#clint { background-position: -300px 0; }
-#hulk { background-position: -450px 0; }
-#thor { background-position: -600px 0; }
-#widow { background-position: -750px 0; }
+#carol { background-position: -225px 0; }
+#clint { background-position: -4500px 0; }
+#hulk { background-position: -675px 0; }
+#thor { background-position: -900px 0; }
+#widow { background-position: -1125px 0; }
 
 .sprite:hover { background-position-y: -150px !important; }
 
@@ -174,11 +174,11 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Cap_LB_Bg.png');
+  background-image: url('../images/brazil-team.png');
   background-repeat: no-repeat;
 
-  background-size: 55vh; /* 55% of the viewport height */
-  background-position: 40px bottom;
+  background-size: 100vh; /* 55% of the viewport height */
+  background-position: 50px bottom;
 
   display: none;
   
@@ -197,7 +197,9 @@ footer {
 
 .lb_close img {height: 40px;}
 
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+#lightbox2 { 
+  background-size: 300px;
+  background-image: url('../images/belgium.png'); }
 
 .lightbox_close {
   position: relative;
@@ -220,11 +222,14 @@ footer {
   padding-top: 50px;
 }
 
-.lb_text, .lb_heading { text-align: left; }
+.lb_text, .lb_heading { 
+  text-align: left; 
+  margin-left: 200px;
+}
 
 .lb_text {
-  line-height: 1.6 !important;
-  margin-left: 0;
+  line-height: 1.4 !important;
+  margin-left: 200px;
   padding-top: 2em;
 }
 
