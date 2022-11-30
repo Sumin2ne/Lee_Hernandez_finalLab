@@ -9,15 +9,6 @@
 
 }
 
-/* .grid {
-	display: grid;
-	grid-template-columns: repeat(12, 122px);
-	grid-column-gap: 16px;
-	padding-left: 140px;
-	padding-right: 140px;
-
-} */
-
 .hidden { display: none; }
 
 html, body { height: 100% }
@@ -53,14 +44,12 @@ header {
 }
 
 #logo-fifa {
-  /* grid-column: 1/2; */
   height: 40px;
   margin-left: 40px;
   margin-top: 45px;
 }
 
 #text-logo {
-  /* grid-column: 4/10; */
   height: 70px;
 
   margin-top: 30px;
@@ -92,7 +81,7 @@ header {
   
   display: inline-block;
   height: 220px;
-  margin: 10px 8px;
+  margin: 20px 15px;
 
   background-color: black;
 
@@ -214,16 +203,16 @@ footer {
   background-image: url('../images/belgium.png'); }
 
 #lightbox3{ 
-    background-image: url('../images/belgium.png'); }
+    background-image: url('../images/argentina-team.png'); }
 
 #lightbox4 { 
-  background-image: url('../images/belgium.png'); }
+  background-image: url('../images/france-team.png'); }
 
 #lightbox5 { 
-  background-image: url('../images/belgium.png'); }
+  background-image: url('../images/england-team.png'); }
 
 #lightbox6 { 
-  background-image: url('../images/belgium.png'); }
+  background-image: url('../images/italy-team.png'); }
 
 
 .lightbox article {
