@@ -46,6 +46,7 @@ header {
 #logo-fifa {
   height: 40px;
   margin-left: 40px;
+  margin-right: 40px;
   margin-top: 45px;
 }
 
@@ -81,7 +82,7 @@ header {
   
   display: inline-block;
   height: 220px;
-  margin: 20px 15px;
+  margin: 20px 40px;
 
   background-color: black;
 
